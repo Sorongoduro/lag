@@ -1,5 +1,5 @@
 const request = require('postman-request')
-const url = 'https://api.ipify.org?format=json'
+const url = 'http://ip-api.com/json/'
 
 let getIp = (callback) => {
     request(url, (err, res, body) => {
